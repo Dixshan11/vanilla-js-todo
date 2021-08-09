@@ -1,7 +1,7 @@
 html {
     height: 100vh;
     min-width: 600px;
-    background-image: linear-gradient(130deg, #FFFFFF,#1C3F80);
+  background-color: gray;
     background-repeat: no-repeat;
     background-size: auto;
 }
@@ -19,7 +19,7 @@ html {
     display: flex;
     margin: auto;
     flex-direction: column;
-    max-width: 500px;
+    max-width: 200px;
     padding: 1.5rem 0;
     align-items: center;
 }
@@ -53,10 +53,18 @@ button {
     color: #595959;
 }
 
-button:hover {
-    color: lightcoral;
+#submit:hover {
+    color: green;
 }
-
+#check:hover{
+    color: green;
+}
+#delete:hover{
+    color:red;
+}
+button:hover {
+    color: red;
+}
 .todoList {
     background-color: #FFFFFF;
     border-radius: 5px;
@@ -97,7 +105,7 @@ i {
 }
 
 .clearAll:hover {
-    color: lightcoral;
+    color: red;
 }
 
 
